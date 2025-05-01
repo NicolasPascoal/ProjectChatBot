@@ -1,0 +1,154 @@
+/* Tipografia e fundo geral */
+body {
+  font-family: 'Oxanium', sans-serif;
+  background-color: #0a0a0a;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho com logo central e ícones à direita */
+.furia-header {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  flex: 1;  
+  display: flex;
+  justify-content: center; 
+}
+.logo img {
+  height: 60px;
+}
+
+/* Hero com imagem de fundo e sobreposição escura */
+.hero {
+  background: url('background.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 4rem;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+/* Botão do Telegram */
+.btn-telegram {
+  background-color: #229ED9;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-telegram:hover {
+  background-color: #1a8bbd;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.507);
+}
+
+.telegram-icon {
+  width: 24px;
+  margin-right: 10px;
+}
+
+/* Conteúdo das seções */
+.content h2 {
+  color: #000000;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.card {
+  border: none;
+  margin-bottom: 1.5rem;
+  background-color: #161b22 !important;
+}
+
+.card-title {
+  color: #f0f6fc;
+}
+.card.card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.507);
+}
+
+.ratio iframe {
+  border-radius: 10px;
+}
+section.padrao {
+  padding: 60px 5%;
+  background-color: #ffffff;
+}
+
+section.padrao .flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.padrao .txtTopoSite h1 {
+  color: #000000;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.padrao .txtTopoSite p {
+  color: #313030;
+  font-size: 1.1rem;
+  margin: 30px 0px;
+  max-width: 500px;
+}
+
+
+.imgpadrao img {
+  max-width: 250px;
+  animation: flutuar 2s ease-in-out infinite alternate;
+  position: relative;
+}
+
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 20px;
+  }
+}
