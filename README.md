@@ -129,8 +129,8 @@ Vídeo apresentando o funcionamento do bot, simulações e interação com o fã
 
 ## 📬 Contato
 
-Desenvolvido por [Seu Nome]  
-[LinkedIn ou GitHub aqui]  
+Desenvolvido por Nicolas Pascoal
+www.linkedin.com/in/nicolasgomespascoal 
 Candidato à vaga de Assistente de Engenharia de Software – FURIA Tech
 
 ---
