@@ -32,11 +32,10 @@ A landing page foi construída em HTML, CSS e Bootstrap, e inclui:
 - Hero section com chamada visual e botão de acesso ao bot
 - Seção explicativa com texto voltado para fãs
 - Cards apresentando as funcionalidades
-- Integração com o vídeo de demonstração
 - Estilo visual adaptado ao tema da FURIA
 
 Acesse o bot diretamente por aqui:  
-👉 [@furia_fanbot](https://t.me/furia_fanbot)
+👉 [@furia_fanbot](http://t.me/FanDafuria_bot)
 
 ---
 
